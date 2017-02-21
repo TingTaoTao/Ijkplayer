@@ -542,7 +542,7 @@ public class ReplayVideoView extends LinearLayout {
             ijkMediaPlayer.setOnCompletionListener(listener);
         }
     }
-
+    //TODO ijkMediaPlayer.getPlayableDuration()已经去掉了
 //    public long getPlayableDuration() {
 //        if (ijkMediaPlayer != null) {
 //            return ijkMediaPlayer.getPlayableDuration();
